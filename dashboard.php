@@ -169,12 +169,12 @@ if(!isset($_SESSION['email'])){
       <td>
         <a class="btn btn-primary btn-sm" href="asignatura.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Publicar</a>
         <a class="btn btn-success btn-sm" href="consultaCurso.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Consultar</a>
-        <a class="btn btn-info btn-sm" href="editaNotas.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Editar</a>
+        <a class="btn btn-info btn-sm quitar_link" href="editaNotas.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Editar</a>
       </td>
       <td>
         <a class="btn btn-primary btn-sm" href="asignaturab.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Publicar</a>
         <a class="btn btn-success btn-sm" href="consultaCursob.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Consultar</a>
-        <a class="btn btn-info btn-sm" href="editaNotasb.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Editar</a>
+        <a class="btn btn-info btn-sm quitar_link" href="editaNotasb.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Editar</a>
       </td>
       <td>
         <a class="btn btn-primary btn-sm quitar_link" href="asignatura.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Publicar</a>
@@ -184,7 +184,7 @@ if(!isset($_SESSION['email'])){
       <td>
         <a class="btn btn-primary btn-sm quitar_link"  href="asignatura.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Publicar</a>
         <a class="btn btn-success btn-sm quitar_link" href="consultaCurso.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Consultar</a>
-        <a class="btn btn-info btn-sm "  href="editaNotas.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Editar</a>
+        <a class="btn btn-info btn-sm quitar_link"  href="editaNotas.php?curso=<?php echo $row["id_curso"];?>&asignatura=<?php echo $row["id_asignatura"];?>">Editar</a>
       </td>
     </tr>
     <?php
